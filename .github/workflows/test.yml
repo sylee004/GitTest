@@ -1,0 +1,14 @@
+name: StoryPlay Develop Release!
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  main:
+    name: Echo Develop test
+    runs-on: ubuntu-latest
+    steps:
+      - name: test echo
+        run: echo Hellow GitHub Action!
