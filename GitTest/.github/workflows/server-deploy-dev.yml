@@ -2,7 +2,8 @@ name: StoryPlay Develop Server Release!
 
 on:
   push:
-    branches: [feat_*]
+    branches:
+      - feat_*
 
 jobs:
   main:
